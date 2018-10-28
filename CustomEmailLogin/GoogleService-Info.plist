@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>201580721419-1ns5t9jcg7m3l52a4pbtcium51l2g0dr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.201580721419-1ns5t9jcg7m3l52a4pbtcium51l2g0dr</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA2-oPLl9kw9TIDoxpMDKAZ1VH6yQ88CqY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>201580721419</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Camilo-Cabana.CustomEmailLogin</string>
+	<key>PROJECT_ID</key>
+	<string>email-login-18286</string>
+	<key>STORAGE_BUCKET</key>
+	<string>email-login-18286.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:201580721419:ios:5df8e2bf3f0fdb23</string>
+	<key>DATABASE_URL</key>
+	<string>https://email-login-18286.firebaseio.com</string>
+</dict>
+</plist>

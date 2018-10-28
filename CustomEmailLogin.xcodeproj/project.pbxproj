@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CE46CA536B2917DA5FAEB43 /* Pods_CustomEmailLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 386670E365C237B1A1FCD20F /* Pods_CustomEmailLogin.framework */; };
+		2FC7CEEA2184C8F500BCDF8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC7CEE92184C8F500BCDF8C /* AppDelegate.swift */; };
+		2FC7CEEC2184C8F500BCDF8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC7CEEB2184C8F500BCDF8C /* ViewController.swift */; };
+		2FC7CEEF2184C8F500BCDF8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC7CEED2184C8F500BCDF8C /* Main.storyboard */; };
+		2FC7CEF12184C8F600BCDF8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC7CEF02184C8F600BCDF8C /* Assets.xcassets */; };
+		2FC7CEF42184C8F600BCDF8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC7CEF22184C8F600BCDF8C /* LaunchScreen.storyboard */; };
+		2FC7CEFC2184C95B00BCDF8C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FC7CEFB2184C95B00BCDF8C /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FC7CEE62184C8F500BCDF8C /* CustomEmailLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomEmailLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC7CEE92184C8F500BCDF8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FC7CEEB2184C8F500BCDF8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2FC7CEEE2184C8F500BCDF8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FC7CEF02184C8F600BCDF8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FC7CEF32184C8F600BCDF8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FC7CEF52184C8F600BCDF8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FC7CEFB2184C95B00BCDF8C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		386670E365C237B1A1FCD20F /* Pods_CustomEmailLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomEmailLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39244B300138AF852242D7D8 /* Pods-CustomEmailLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomEmailLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomEmailLogin/Pods-CustomEmailLogin.release.xcconfig"; sourceTree = "<group>"; };
+		46B2AE8541E2C8C8B7DEAE93 /* Pods-CustomEmailLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomEmailLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomEmailLogin/Pods-CustomEmailLogin.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FC7CEE32184C8F500BCDF8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CE46CA536B2917DA5FAEB43 /* Pods_CustomEmailLogin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FC7CEDD2184C8F500BCDF8C = {
+			isa = PBXGroup;
+			children = (
+				2FC7CEE82184C8F500BCDF8C /* CustomEmailLogin */,
+				2FC7CEE72184C8F500BCDF8C /* Products */,
+				B4D1347E2DE49930A861D542 /* Pods */,
+				B1832246CE48722A153F3B92 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2FC7CEE72184C8F500BCDF8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FC7CEE62184C8F500BCDF8C /* CustomEmailLogin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FC7CEE82184C8F500BCDF8C /* CustomEmailLogin */ = {
+			isa = PBXGroup;
+			children = (
+				2FC7CEE92184C8F500BCDF8C /* AppDelegate.swift */,
+				2FC7CEEB2184C8F500BCDF8C /* ViewController.swift */,
+				2FC7CEED2184C8F500BCDF8C /* Main.storyboard */,
+				2FC7CEF02184C8F600BCDF8C /* Assets.xcassets */,
+				2FC7CEF22184C8F600BCDF8C /* LaunchScreen.storyboard */,
+				2FC7CEF52184C8F600BCDF8C /* Info.plist */,
+				2FC7CEFB2184C95B00BCDF8C /* GoogleService-Info.plist */,
+			);
+			path = CustomEmailLogin;
+			sourceTree = "<group>";
+		};
+		B1832246CE48722A153F3B92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				386670E365C237B1A1FCD20F /* Pods_CustomEmailLogin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4D1347E2DE49930A861D542 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46B2AE8541E2C8C8B7DEAE93 /* Pods-CustomEmailLogin.debug.xcconfig */,
+				39244B300138AF852242D7D8 /* Pods-CustomEmailLogin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FC7CEE52184C8F500BCDF8C /* CustomEmailLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FC7CEF82184C8F600BCDF8C /* Build configuration list for PBXNativeTarget "CustomEmailLogin" */;
+			buildPhases = (
+				EE820F05A36616BDC0676FF9 /* [CP] Check Pods Manifest.lock */,
+				2FC7CEE22184C8F500BCDF8C /* Sources */,
+				2FC7CEE32184C8F500BCDF8C /* Frameworks */,
+				2FC7CEE42184C8F500BCDF8C /* Resources */,
+				DE64DB1D607385C2AD41D9EB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomEmailLogin;
+			productName = CustomEmailLogin;
+			productReference = 2FC7CEE62184C8F500BCDF8C /* CustomEmailLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FC7CEDE2184C8F500BCDF8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Camilo Cabana";
+				TargetAttributes = {
+					2FC7CEE52184C8F500BCDF8C = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 2FC7CEE12184C8F500BCDF8C /* Build configuration list for PBXProject "CustomEmailLogin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FC7CEDD2184C8F500BCDF8C;
+			productRefGroup = 2FC7CEE72184C8F500BCDF8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FC7CEE52184C8F500BCDF8C /* CustomEmailLogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FC7CEE42184C8F500BCDF8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC7CEF42184C8F600BCDF8C /* LaunchScreen.storyboard in Resources */,
+				2FC7CEFC2184C95B00BCDF8C /* GoogleService-Info.plist in Resources */,
+				2FC7CEF12184C8F600BCDF8C /* Assets.xcassets in Resources */,
+				2FC7CEEF2184C8F500BCDF8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DE64DB1D607385C2AD41D9EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CustomEmailLogin/Pods-CustomEmailLogin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomEmailLogin/Pods-CustomEmailLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE820F05A36616BDC0676FF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomEmailLogin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FC7CEE22184C8F500BCDF8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC7CEEC2184C8F500BCDF8C /* ViewController.swift in Sources */,
+				2FC7CEEA2184C8F500BCDF8C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2FC7CEED2184C8F500BCDF8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FC7CEEE2184C8F500BCDF8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FC7CEF22184C8F600BCDF8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FC7CEF32184C8F600BCDF8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FC7CEF62184C8F600BCDF8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FC7CEF72184C8F600BCDF8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FC7CEF92184C8F600BCDF8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46B2AE8541E2C8C8B7DEAE93 /* Pods-CustomEmailLogin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WK8JGF9VN3;
+				INFOPLIST_FILE = CustomEmailLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Camilo-Cabana.CustomEmailLogin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FC7CEFA2184C8F600BCDF8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39244B300138AF852242D7D8 /* Pods-CustomEmailLogin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WK8JGF9VN3;
+				INFOPLIST_FILE = CustomEmailLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Camilo-Cabana.CustomEmailLogin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FC7CEE12184C8F500BCDF8C /* Build configuration list for PBXProject "CustomEmailLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC7CEF62184C8F600BCDF8C /* Debug */,
+				2FC7CEF72184C8F600BCDF8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FC7CEF82184C8F600BCDF8C /* Build configuration list for PBXNativeTarget "CustomEmailLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC7CEF92184C8F600BCDF8C /* Debug */,
+				2FC7CEFA2184C8F600BCDF8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FC7CEDE2184C8F500BCDF8C /* Project object */;
+}
